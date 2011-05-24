@@ -1,0 +1,7 @@
+.votethumb {float: left;}
+
+#userInfo {position: absolute; width: 190px; height: 40px; background: black; display: none; overflow: hidden; padding: 5px;}
+#loginButton {display: none;}
+
+h1 {color: white; font-size: 14px; font-family: Arial; margin: 0px; padding: 0px;}
+p {color: white; font-size: 10px; font-family: Arial;}
