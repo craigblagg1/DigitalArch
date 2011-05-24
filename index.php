@@ -39,8 +39,8 @@ else{
 }
 
 $facebook = new Facebook(array(
-  'appId'  => 'XXXXXXXXX',
-  'secret' => 'XXXXXXXXXXXXXXXXXXXXX',
+  'appId'  => 'XXXXXXXXXXXXXXXXXX',
+  'secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   'cookie' => true,
 ));
 $session = $facebook->getSession();
@@ -75,7 +75,7 @@ if ($me) {
 if ($voted == true){
 	?>
 	<script type="text/javascript">
-	window.location.href = "sites/" + <?php echo $vote; ?> + ".php";
+	window.location.href = "sites/" + <?php echo $vote; ?> + ".php?voted=true";
 	</script>
 	<?php
 }
